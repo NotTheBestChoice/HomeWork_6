@@ -9,6 +9,7 @@ def concat(*strings, reversed: bool):
         for i in lst:
             text += i + ' '
     print(text)
+    return(text)
 
 strings = []
 cnt = 1
